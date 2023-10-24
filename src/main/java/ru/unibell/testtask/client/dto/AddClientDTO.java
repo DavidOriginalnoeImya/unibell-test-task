@@ -1,4 +1,4 @@
-package ru.unibell.testtask.dto;
+package ru.unibell.testtask.client.dto;
 
 public class AddClientDTO {
 

@@ -1,13 +1,13 @@
-package ru.unibell.testtask.service;
+package ru.unibell.testtask.client.service;
 
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
-import ru.unibell.testtask.data.client.Client;
-import ru.unibell.testtask.data.client.ClientRepository;
-import ru.unibell.testtask.dto.AddClientDTO;
-import ru.unibell.testtask.dto.ClientDTO;
-import ru.unibell.testtask.dto.ContactsDTO;
-import ru.unibell.testtask.dto.DTOConverter;
+import ru.unibell.testtask.client.model.Client;
+import ru.unibell.testtask.client.model.ClientRepository;
+import ru.unibell.testtask.client.dto.AddClientDTO;
+import ru.unibell.testtask.client.dto.ClientDTO;
+import ru.unibell.testtask.client.dto.ContactsDTO;
+import ru.unibell.testtask.client.dto.DTOConverter;
 
 import java.util.List;
 import java.util.Set;

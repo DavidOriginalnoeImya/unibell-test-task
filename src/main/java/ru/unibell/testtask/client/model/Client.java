@@ -1,4 +1,4 @@
-package ru.unibell.testtask.data.client;
+package ru.unibell.testtask.client.model;
 
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;

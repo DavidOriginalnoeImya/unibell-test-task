@@ -1,6 +1,6 @@
-package ru.unibell.testtask.dto;
+package ru.unibell.testtask.client.dto;
 
-import ru.unibell.testtask.data.client.Client;
+import ru.unibell.testtask.client.model.Client;
 
 import java.util.Set;
 

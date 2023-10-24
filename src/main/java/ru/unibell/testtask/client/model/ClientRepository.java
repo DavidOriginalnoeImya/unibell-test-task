@@ -1,4 +1,4 @@
-package ru.unibell.testtask.data.client;
+package ru.unibell.testtask.client.model;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;

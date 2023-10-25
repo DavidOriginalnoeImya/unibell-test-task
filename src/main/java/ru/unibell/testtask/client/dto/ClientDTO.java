@@ -4,6 +4,8 @@ import java.util.Set;
 
 public class ClientDTO {
 
+    private Long id;
+
     private String name;
 
     private Set<String> emails;
@@ -32,5 +34,13 @@ public class ClientDTO {
 
     public void setPhoneNumbers(Set<String> phoneNumbers) {
         this.phoneNumbers = phoneNumbers;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

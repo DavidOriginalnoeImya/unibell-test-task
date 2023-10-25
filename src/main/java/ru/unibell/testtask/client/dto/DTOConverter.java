@@ -7,14 +7,15 @@ import java.util.Set;
 public class DTOConverter {
     public static Client convertFromDTO(AddClientDTO addClientDTO) {
         Client client = new Client();
-        client.setName(addClientDTO.getClientName());
+        client.setName(addClientDTO.getName());
         return client;
     }
 
     public static ClientDTO convertToDTO(Client client) {
         ClientDTO clientDTO = new ClientDTO();
-        clientDTO.setName(clientDTO.getName());
-        clientDTO.setEmails(clientDTO.getEmails());
+        clientDTO.setId(client.getId());
+        clientDTO.setName(client.getName());
+        clientDTO.setEmails(client.getEmails());
         clientDTO.setPhoneNumbers(client.getPhoneNumbers());
         return clientDTO;
     }
